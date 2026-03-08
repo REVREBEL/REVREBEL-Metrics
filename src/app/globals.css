@@ -1,10 +1,10 @@
-@import url("tailwindcss");
-@import url("tw-animate-css");
-@import url("shadcn/tailwind.css");
-
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --font-serif: var(--font-funnel), ui-sans-serif, system-ui;
   --font-sans: var(--font-funnel), ui-sans-serif, system-ui;
   --font-display: var(--font-khand), sans-serif;
   --font-mono: 'Fira Code', monospace;
@@ -12,16 +12,17 @@
   --foreground: oklch(27% 0.09 254.40deg);
   --card: oklch(100% 0.0001 271.152deg);
   --card-foreground: oklch(27% 0.09 254.40deg);
-  --popover: oklch(1% 0 0deg);
+  --background: oklch(98% 0 0deg);
+  --popover: oklch(98% 0 0deg);
   --popover-foreground: oklch(27% 0.09 254.40deg);
   --primary: oklch(27% 0.09 254.40deg);
   --primary-foreground: oklch(98% 0 0deg);
-  --secondary: oklch(78% 0.11 195.12deg);
+  --secondary: oklch(96% 0.01 210deg);
   --secondary-foreground: oklch(27% 0.09 254.40deg);
   --muted: oklch(96% 0 0deg);
   --muted-foreground: oklch(27% 0.09 254.40deg);
   --accent: oklch(78% 0.11 195.12deg);
-  --accent-foreground: oklch(1% 0 0deg);
+  --accent-foreground: oklch(96% 0 0deg);
   --border: oklch(27% 0.09 254.40deg);
   --input: oklch(27% 0.09 254.40deg);
   /* States */
@@ -110,6 +111,7 @@
 }
 
 .dark {
+  --font-serif: var(--font-funnel), ui-sans-serif, system-ui;  
   --font-sans: var(--font-funnel), ui-sans-serif, system-ui;
   --font-display: var(--font-khand), sans-serif;
   --font-serif: 'Funnel Sans', sans-serif;
@@ -599,11 +601,11 @@ body {
 }
 
 .jsx-tag-name {
-  color:  var(--color-7) !important;
+  color: var(--color-7) !important;
 }
 
 .jsx-tag-attribute-key {
-  color:  var(--color-8) !important;
+  color: var(--color-8) !important;
 }
 
 .jsx-expression-braces {
@@ -619,13 +621,13 @@ body {
 }
 
 .dark .jsx-tag-name {
-  color:  var(--color-7) !important;
+  color: var(--color-7) !important;
 }
 
 .dark .jsx-tag-attribute-key {
-  color:  var(--color-8) !important;
+  color: var(--color-8) !important;
 }
 
 .dark .jsx-expression-braces {
-  color:  var(--color-8) !important;
+  color: var(--color-8) !important;
 }

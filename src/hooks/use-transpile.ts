@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { transpileTSX, type TranspileResult } from "@/lib/playground/transpile"
+import { transpileTSX, type TranspileResult } from "@/lib/workshop/transpile"
 
 const DEBOUNCE_MS = 150
 const ERROR_GRACE_MS = 500
