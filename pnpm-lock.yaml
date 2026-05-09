@@ -13,7 +13,7 @@ importers:
         version: 1.2.0(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@hugeicons/core-free-icons':
         specifier: ^4.0.0
-        version: 4.0.0
+        version: 4.1.2
       '@hugeicons/react':
         specifier: ^1.1.5
         version: 1.1.6(react@19.2.6)
@@ -842,8 +842,8 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@hugeicons/core-free-icons@4.0.0':
-    resolution: {integrity: sha512-bzfbKumv3ke3ajbe2MyXi9i0I/cdsZ6n/mO9EfIPNSL++pHLqs7nSGRIVUtjF4xrrEyVkfhxssv4Jek8DPA6gA==}
+  '@hugeicons/core-free-icons@4.1.2':
+    resolution: {integrity: sha512-7PfGYaUyExpAMA8ZC7gfXykttrBDIUutU/yQHIBgz0L61ENSM73mqg/9hCTZemiEUVtj2raRRjhoJMGdAFwetQ==}
 
   '@hugeicons/react@1.1.6':
     resolution: {integrity: sha512-c2LhXJMAW5wN1pC/smBXG0YPqUON6ceR/ZdXHCjEI9KvB+hjtqYjmzIxok5hAQOeXGz0WtORgCQMzqewFKAZwg==}
@@ -5414,7 +5414,7 @@ snapshots:
     dependencies:
       hono: 4.12.5
 
-  '@hugeicons/core-free-icons@4.0.0': {}
+  '@hugeicons/core-free-icons@4.1.2': {}
 
   '@hugeicons/react@1.1.6(react@19.2.6)':
     dependencies:
